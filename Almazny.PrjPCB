@@ -173,6 +173,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RLXAOGBA
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Almazny\Design Rule Check - Almazny.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=H:\Team Drives\Altium\AltiumLib\*.IntLib
 IncludeSubFolders=1
