@@ -175,6 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RLXAOGBA
 
+<<<<<<< HEAD
 [Document9]
 DocumentPath=panel\Panel_Almazny.OutJob
 AnnotationEnabled=1
@@ -219,6 +220,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument3]
 DocumentPath=Project Outputs for Almazny\Panel\ExportSTEP\Panel_Almazny.step
+=======
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Almazny\Design Rule Check - Almazny.html
+>>>>>>> f5d4c7ef3fc9ef8866905c88236f91987ea7230a
 DItemRevisionGUID=
 
 [SearchPath1]
