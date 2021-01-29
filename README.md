@@ -4,7 +4,7 @@
 
 ## Design Files
 
-Design files (schematics, PCB layouts, BOMs) can be found at [mirny/Releases](https://github.com/sinara-hw/Almazny/releases).
+Design files (schematics, PCB layouts, BOMs) can be found at [Almazny/releases](https://github.com/sinara-hw/Almazny/releases).
 
 ## Wiki
 
