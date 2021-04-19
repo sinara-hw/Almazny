@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\My Work\INNE\ALMAZNY\Almazny.PcbDoc
-Date     : 29.11.2020
-Time     : 20:38:52
+PCB File : D:\Magazyn_TachBook\My Work\INNE\ALMAZNY\Almazny.PcbDoc
+Date     : 19.04.2021
+Time     : 09:29:52
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(InNet('GND'))
 Rule Violations :0
@@ -9,22 +9,25 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),((IsVia AND InNet('GND')) and not(IsPad))
+Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT (InComponent('J8') OR InComponent('J11')))
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('50_Ohms')),((InPolygon AND (OnLayer('L2') OR OnLayer('L3'))))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),((IsVia AND InNet('GND')) and not(IsPad))
+Rule Violations :0
+
 Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50_Ohms')),(InPolygon)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials')),(All)
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (Not (OnLayer('Keep-Out Layer'))),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -36,10 +39,10 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=0.5mm) (Preferred=0.25mm) (All)
+Processing Rule : Width Constraint (Min=0.181mm) (Max=0.529mm) (Preferred=0.36mm) (InNetClass('50_Ohms'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=45,00ohms) (Max=55,00ohms) (Preferred=50,00ohms) (InNetClass('50_Ohms'))
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.5mm) (Preferred=0.25mm) (All)
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
@@ -55,9 +58,6 @@ Processing Rule : SMD To Corner (Distance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : SMD To Plane Constraint (Distance=0mm) (All)
-Rule Violations :0
-
-Processing Rule : SMD Neck-Down Constraint (Percent=100%) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -174,52 +174,32 @@ Waived Violations Of Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out 
 Waived Violations :14
 
 Waived Violations Of Rule : Clearance Constraint (Gap=0.2mm) (Not (OnLayer('Keep-Out Layer'))),(All)
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
-   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok, 
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
+   Waived Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:20:13CONNECTOR pad to board outline - ok,
 Waived Violations :8
 
 Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
    Waived Violation between Un-Routed Net Constraint: Net NetC48B_2 Between Pad IC8B-13(73.449mm,10.016mm) on L1 [Unplated] And Pad IC8B-2(74.949mm,9.341mm) on L1 [Unplated] Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
 Waived Violations :1
 
-Waived Violations Of Rule : SMD Neck-Down Constraint (Percent=100%) (All)
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC5A-2(40.491mm,76.481mm) on L1 And Track (40.835mm,76.475mm)(63.954mm,76.475mm) on L1 Relative Track Width: 101,33%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC5B-2(40.513mm,58.078mm) on L1 And Track (40.857mm,58.072mm)(63.977mm,58.072mm) on L1 Relative Track Width: 101,33%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC5C-2(40.523mm,39.652mm) on L1 And Track (40.867mm,39.646mm)(63.987mm,39.646mm) on L1 Relative Track Width: 101,33%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC5D-2(40.503mm,20.281mm) on L1 And Track (40.847mm,20.275mm)(63.967mm,20.275mm) on L1 Relative Track Width: 101,33%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC6A-7(18.23mm,76.072mm) on L1 And Track (18.13mm,75.822mm)(18.13mm,76.622mm) on L1 Relative Track Width: 200,00%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC6B-7(18.253mm,57.67mm) on L1 And Track (18.153mm,57.42mm)(18.153mm,58.22mm) on L1 Relative Track Width: 200,00%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC6C-7(18.263mm,39.243mm) on L1 And Track (18.163mm,38.993mm)(18.163mm,39.793mm) on L1 Relative Track Width: 200,00%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between SMD Neck-Down Constraint: Between Pad IC6D-7(18.243mm,19.872mm) on L1 And Track (18.143mm,19.622mm)(18.143mm,20.422mm) on L1 Relative Track Width: 200,00%Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-Waived Violations :8
-
 Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
 Waived Violations :8
-
-Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And Small Component B3-2.7mm hole pad 5mm (3.556mm,5.512mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And Small Component B4-2.7mm hole pad 5mm (3.556mm,94.412mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And SMT Small Component J2-SMA (9.061mm,77.341mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And SMT Small Component J3-SMA (9.061mm,59.561mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And SMT Small Component J4-SMA (9.061mm,41.781mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Panel_Mirny (Mechanical 13)  Standoff=-4.1mm  Overall=16.849mm  (33.902mm, 146.45mm) And SMT Small Component J5-SMA (9.061mm,24.001mm) on L1 Waived by Stanis³aw Hanasz at 29.11.2020 20:38:34not important
-Waived Violations :6
 
 
 Violations Detected : 0
-Waived Violations : 45
-Time Elapsed        : 00:00:06
+Waived Violations : 31
+Time Elapsed        : 00:00:02

@@ -1,0 +1,32 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Almazny.PcbDoc]
+   Generated File[Almazny.GTO]
+   Generated File[Almazny.GTP]
+   Generated File[Almazny.GTS]
+   Generated File[Almazny.GTL]
+   Generated File[Almazny.G1]
+   Generated File[Almazny.G2]
+   Generated File[Almazny.GBL]
+   Generated File[Almazny.GBS]
+   Generated File[Almazny.GBP]
+   Generated File[Almazny.GBO]
+   Generated File[Almazny.GM1]
+   Generated File[Almazny.GM8]
+   Generated File[Almazny.GM13]
+   Generated File[Almazny.GM14]
+   Generated File[Almazny.GM15]
+   Generated File[Almazny.GM30]
+   Generated File[Almazny.GM31]
+   Generated File[Almazny.GKO]
+   Generated File[Almazny.GPT]
+   Generated File[Almazny.GPB]
+   Generated File[Almazny.RUL]
+   Generated File[Almazny.EXTREP]
+   Generated File[Almazny.REP]
+
+
+Files Generated   : 23
+Documents Printed : 0
+
+Finished Output Generation At 12:03:50 On 19.04.2021
