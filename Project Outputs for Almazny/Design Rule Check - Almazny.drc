@@ -1,19 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\Magazyn_TachBook\My Work\INNE\ALMAZNY\Almazny.PcbDoc
-Date     : 19.04.2021
-Time     : 09:29:52
-
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(InNet('GND'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT (InComponent('J8') OR InComponent('J11')))
-Rule Violations :0
+PCB File : E:\Magazyn_TachBook\My Work\INNE\ALMAZNY\Almazny.PcbDoc
+Date     : 07.06.2021
+Time     : 16:22:39
 
 Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('50_Ohms')),((InPolygon AND (OnLayer('L2') OR OnLayer('L3'))))
 Rule Violations :0
@@ -21,13 +9,25 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),((IsVia AND InNet('GND')) and not(IsPad))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50_Ohms')),(InPolygon)
+Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT (InComponent('J8') OR InComponent('J11')))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (Not (OnLayer('Keep-Out Layer'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InComponentClass('Fiducials')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('50_Ohms')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.2mm) (Not (OnLayer('Keep-Out Layer'))),(All)
+Processing Rule : Clearance Constraint (Gap=1mm) (InNetClass('50_Ohms')),(InPolygon)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -39,7 +39,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.181mm) (Max=0.529mm) (Preferred=0.36mm) (InNetClass('50_Ohms'))
+Processing Rule : Width Constraint (Min=0.181mm) (Max=0.529mm) (Preferred=0.4mm) (InNetClass('50_Ohms'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.2mm) (Max=0.5mm) (Preferred=0.25mm) (All)
@@ -157,8 +157,8 @@ Processing Rule : Height Constraint (Min=0mm) (Max=20mm) (Prefered=10mm) (All)
 Rule Violations :0
 
 Waived Violations Of Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Keep-Out Layer')),(NOT (InComponent('J8') OR InComponent('J11')))
-   Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B3-1(3.556mm,5.512mm) on Multi-Layer And Track (0.584mm,8.103mm)(6.096mm,8.103mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 29.11.2020 20:19:08KEEPOUT VIOLATIONS
-   Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B3-1(3.556mm,5.512mm) on Multi-Layer And Track (6.096mm,3.023mm)(6.096mm,8.103mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 29.11.2020 20:19:08KEEPOUT VIOLATIONS
+   Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B3-1(3.556mm,5.512mm) on Multi-Layer And Track (0.584mm,8.103mm)(6.096mm,8.103mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B3-1(3.556mm,5.512mm) on Multi-Layer And Track (6.096mm,3.023mm)(6.096mm,8.103mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
    Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B4-1(3.556mm,94.412mm) on Multi-Layer And Track (0.21mm,91.923mm)(6.096mm,91.923mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 29.11.2020 20:19:08KEEPOUT VIOLATIONS
    Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad B4-1(3.556mm,94.412mm) on Multi-Layer And Track (6.096mm,91.923mm)(6.096mm,97.003mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 29.11.2020 20:19:08KEEPOUT VIOLATIONS
    Waived Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad J2-2(3.411mm,73.141mm) on L1 And Track (-0.813mm,9.5mm)(-0.813mm,90.9mm) on Keep-Out Layer Waived by Stanis³aw Hanasz at 29.11.2020 20:19:08KEEPOUT VIOLATIONS
@@ -189,17 +189,26 @@ Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
 Waived Violations :1
 
 Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
-   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 19.04.2021 08:37:54
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,73.141mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J2-2(3.411mm,81.541mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,55.361mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J3-2(3.411mm,63.761mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,37.581mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J4-2(3.411mm,45.981mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,19.801mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Board Outline Clearance(Outline Edge): (0.111mm < 0.2mm) Between Board Edge And Pad J5-2(3.411mm,28.201mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
 Waived Violations :8
+
+Waived Violations Of Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And Small Component B3-2.7mm hole pad 5mm (3.556mm,5.512mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And Small Component B4-2.7mm hole pad 5mm (3.556mm,94.412mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And SMT Small Component J2-SMA (9.061mm,77.341mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And SMT Small Component J3-SMA (9.061mm,59.561mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And SMT Small Component J4-SMA (9.061mm,41.781mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+   Waived Violation between Component Clearance Constraint: (Collision < 0.254mm) Between 3D STEP Almazny_panel (Mechanical 13)  Standoff=-4.12mm  Overall=16.83mm  (38.95mm, 32.385mm) And SMT Small Component J5-SMA (9.061mm,24.001mm) on L1 Waived by Stanis³aw Hanasz at 07.06.2021 15:11:17
+Waived Violations :6
 
 
 Violations Detected : 0
-Waived Violations : 31
+Waived Violations : 37
 Time Elapsed        : 00:00:02

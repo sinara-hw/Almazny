@@ -1,4 +1,5 @@
-DRC Rules Export File for PCB: D:\My Work\INNE\ALMAZNY\Almazny.PcbDoc
+DRC Rules Export File for PCB: E:\Magazyn_TachBook\My Work\INNE\ALMAZNY\Almazny.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=4.00
 RuleKind=Clearance|RuleName=Clearance_50_Ohms_GND_Plane_1|Scope=Board|Minimum=39.37
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_Blind|Scope=Board|Minimum=3.94

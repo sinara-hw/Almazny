@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-D:\My Work\INNE\ALMAZNY\Project Outputs for Almazny\Pick Place\Pick Place for Almazny.txt
+E:\Magazyn_TachBook\My Work\INNE\ALMAZNY\Project Outputs for Almazny\Pick Place\Pick Place for Almazny.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       19.04.21
-Time:       12:03
-Revision:   98a5f826b0e4a0d25ed3bef8d72cb342f9e49dff
+Date:       07.06.21
+Time:       16:21
+Revision:   f5d4c7ef3fc9ef8866905c88236f91987ea7230a
 Variant:    No variations
 Units used: mil
 
