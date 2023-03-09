@@ -156,14 +156,19 @@ UniqueID=B5A37BC9-9440-499E-9432-8ABDA05CE7BF
 Description=STD
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
-Variation1=Designator=J100|UniqueId=\FDBCLPLE|Kind=1|AlternatePart= 
+VariationCount=4
+Variation1=Designator=J100|UniqueId=\FDBCLPLE|Kind=0|AlternatePart= 
 Variation2=Designator=IC?|UniqueId=\KXNXPLFO|Kind=1|AlternatePart= 
 Variation3=Designator=R?|UniqueId=\WTNBXCHU|Kind=1|AlternatePart= 
+Variation4=Designator=IC12|UniqueId=\DJMGKUBJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Almazny\Design Rule Check - Almazny.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzDAC7.xls
 DItemRevisionGUID=
 
 [SearchPath1]
