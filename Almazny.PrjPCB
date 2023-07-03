@@ -163,6 +163,10 @@ Variation3=Designator=R?|UniqueId=\WTNBXCHU|Kind=1|AlternatePart=
 Variation4=Designator=IC12|UniqueId=\DJMGKUBJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Almazny\Design Rule Check - Almazny.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=D:\Magazyn_TachBook\My Work\INNE\CernLib\*.IntLib
 IncludeSubFolders=1
@@ -170,10 +174,6 @@ IncludeSubFolders=1
 [Parameter1]
 Name=P_version
 Value=1.3.1
-
-[Parameter2]
-Name=
-Value=
 
 [Configuration1]
 Name=Default Configuration
@@ -1046,11 +1046,11 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1194,7 +1194,7 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
+CompClassManualEnabled=1
 CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
